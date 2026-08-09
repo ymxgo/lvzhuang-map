@@ -1,0 +1,1738 @@
+{
+  "schema_version": "1.2",
+  "exported_at": "2026-08-07T14:34:59.892Z",
+  "cases": [
+    {
+      "case_id": "xhs_6a05a0690000000036003b26",
+      "platform": "小红书",
+      "platform_note_id": "6a05a0690000000036003b26",
+      "note_url": "https://www.xiaohongshu.com/explore/6a05a0690000000036003b26?xsec_token=ABgoRyK9pldNtmWkacr_4LOZaAN6ZgXsZaSSiMUo7syKY=&xsec_source=pc_search&source=web_explore_feed",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a05a0690000000036003b26",
+      "note_type": "normal",
+      "title": "西安三日游",
+      "content_snippet": "🏨住宿：建议住钟楼或者小寨附近，地铁便利\n我们是住在汉庭酒店(西安钟楼大差市地铁站店)\n\t\n🌄景点：西安景点都很集中，一次性就可以逛完好几个地方，只不过每日得暴走至少一万步\n\t\n🍽️美食：刚刚烤肉（一元一串且清真）\n三根电杆陕菜馆（好像是网红店但很好吃）\n魏家凉皮（感觉好像也就那样）\n阿丽娅拌面馆（新疆拌面还挺正宗好吃的）\nps：上面这些都得排队，除了魏家凉皮\n\t\n👗妆造：我们是在一洲商城逛了一圈选了喜欢的那家店，169/人，一定要大胆说出自己的想法，她们会按你的想法改，也可以找喜欢的图照着做\n\t\nDAY1\n刚刚烤肉+大雁塔+大唐不夜城\n钟楼+鼓楼（踩点）\n\t\nDAY2\n小唐风汉服妆造+兴庆宫拍照+三根电杆陕菜馆+阿丽娅拌面馆\n晚上六点钟楼亮灯后去拍了打卡照\n\t\nDAY3\n兵马俑（市中心过去大概要两个小时）+魏家凉皮\n#西安旅游攻略[话题]# #西安打卡出片地[话题]#",
+      "published_at": 1778753641000,
+      "collected_at": "2026-08-07T14:24:57.733Z",
+      "author": {
+        "platform_user_id": "62121f52000000001000ef67",
+        "name": "就爱摆烂 那咋啦",
+        "profile_url": "https://www.xiaohongshu.com/user/profile/62121f52000000001000ef67?channel_type=web_search_result_notes&xsec_token=AByDhaIuXwtZjy1PRmuKHm3lPzYg4m-wU82TqC7bQpFOc%3D&xsec_source=pc_note"
+      },
+      "author_replies": [
+        {
+          "author_name": "就爱摆烂 那咋啦",
+          "author_user_id": "62121f52000000001000ef67",
+          "text": "我也是去旅游的，不知道呢，蹲蹲看有没有本地人评论吧",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "就爱摆烂 那咋啦",
+          "author_user_id": "62121f52000000001000ef67",
+          "text": "回复 杳杳素衣 : 不用，我都是直接过去的，可能节假日人多需要预约",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "就爱摆烂 那咋啦",
+          "author_user_id": "62121f52000000001000ef67",
+          "text": "感觉酒店挺干净开阔的，但是离钟楼差一站，如果节假日高峰期去住的话可以，平时的话还是建议住在钟楼附近，离得近一点不用多走路",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "就爱摆烂 那咋啦",
+          "author_user_id": "62121f52000000001000ef67",
+          "text": "可以的",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "就爱摆烂 那咋啦",
+          "author_user_id": "62121f52000000001000ef67",
+          "text": "共4张 06-19江苏",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "就爱摆烂 那咋啦",
+          "author_user_id": "62121f52000000001000ef67",
+          "text": "回复 薯片片～ : 是的！",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "就爱摆烂 那咋啦",
+          "author_user_id": "62121f52000000001000ef67",
+          "text": "不记得名字了，只记得是一洲商城侧门进去左边第一家",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "就爱摆烂 那咋啦",
+          "author_user_id": "62121f52000000001000ef67",
+          "text": "不太记得名字，只记得是 一洲商城 侧门进去左边第一家",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "就爱摆烂 那咋啦",
+          "author_user_id": "62121f52000000001000ef67",
+          "text": "在兴庆宫拍的，我记得蛮近的",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "就爱摆烂 那咋啦",
+          "author_user_id": "62121f52000000001000ef67",
+          "text": "不太记得名字，只记得是一洲商城侧门进去左边第一家",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/a63d05470e003f5733727abe5432ee48/notes_uhdr/1040g3qo320561v7jis705ogi3t941rr7lac7keg!nd_dft_wlteh_webp_3",
+          "is_cover": true,
+          "media_type": "note_image",
+          "width": 3024,
+          "height": 4032
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/46121cd82a363360d905e559730273b2/1040g2sg32053qnet2s705ogi3t941rr7lbk6vs8!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 2566,
+          "height": 3421
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/9b8986d62f59eb9f60280382761fbfc6/1040g2sg32053qnet2s7g5ogi3t941rr7uetsad0!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 4284,
+          "height": 5712
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/c2d4efa0af5b3165edbce72a615563d3/notes_uhdr/1040g3qo320561v7jis7g5ogi3t941rr7u5rgas8!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 4284,
+          "height": 5712
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/f62d3afe71952ec3458a9e7bc884b380/notes_uhdr/1040g3qo320561v7jis805ogi3t941rr7urj2fuo!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 3024,
+          "height": 4032
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/1787f2ccd3dc63916036b85dcef4f35d/1040g2sg32053qnet2s805ogi3t941rr71nf5pf8!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1080,
+          "height": 5928
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/e2b7f874389d48d71f08c563da97ae6c/notes_uhdr/1040g3qo320561v7jis8g5ogi3t941rr742tc2to!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 2569,
+          "height": 3426
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/6212410cddf3da91decb3376ad8caa54/notes_uhdr/1040g3qo320561v7jis905ogi3t941rr7iof09g0!nd_dft_wgth_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 5712,
+          "height": 4284
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/f7821571306ccaa4da86d596e8da3cbe/notes_uhdr/1040g3qo320561v7jis9g5ogi3t941rr79e4bivg!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 3024,
+          "height": 4032
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/6930223ee68e865ba548a93fb26e879b/notes_uhdr/1040g3qo320561v7jisa05ogi3t941rr7rlqksv8!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 4284,
+          "height": 5712
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/ffa1a4b060d5d5a43f6a2d383a82345f/notes_uhdr/1040g3qo320561v7jisag5ogi3t941rr7k2kk0p0!nd_dft_wgth_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 5712,
+          "height": 4284
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/7efa3d48347f11e29c7baf1c8a6974ea/1040g2sg32053qnet2s8g5ogi3t941rr7m3nd818!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1080,
+          "height": 7187
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/88f6cd4ca6c1c151f90096c59c0df8c7/notes_uhdr/1040g3qo320561v7jisb05ogi3t941rr74sp3l10!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 3024,
+          "height": 4032
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/8377b08719906313eb644ef4a8cf5c65/notes_uhdr/1040g3qo320561v7jisbg5ogi3t941rr7o86rar0!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 4284,
+          "height": 5712
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/12fd312526d39bc241888567b02dba8a/notes_uhdr/1040g3qo320561v7jisc05ogi3t941rr7p6ihet0!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 4284,
+          "height": 5712
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/43e9c2a9e800f6d5faf59a066b58ca54/notes_uhdr/1040g3qo320561v7jiscg5ogi3t941rr7jij5sjg!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 3024,
+          "height": 4032
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072224/d42e8dfde6b7d0821b2b13ce546666d0/notes_uhdr/1040g3qo320561v7jisd05ogi3t941rr71b58mpg!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 3024,
+          "height": 4032
+        }
+      ],
+      "video": null,
+      "city": "西安",
+      "scenic_spot": "大唐不夜城",
+      "scenic_poi": null,
+      "style_tags": [
+        "西安旅游攻略",
+        "西安打卡出片地",
+        "西安旅游攻略[话题]",
+        "西安打卡出片地[话题]",
+        "汉服"
+      ],
+      "service_arrangement": "makeup_only",
+      "service_arrangement_label": "只识别到妆造/服装",
+      "is_merchant_ad": false,
+      "price": 169,
+      "price_status": "manual_reference",
+      "price_note": "参考价格，需联系店铺确认当前套餐",
+      "price_evidence": null,
+      "distance": "距离待核实",
+      "distance_meters": null,
+      "distance_type": null,
+      "shop": {
+        "provider_type": "makeup_and_clothing",
+        "mention_text": "我们是在一洲商城逛了一圈选了喜欢的那家店",
+        "mention_source": "note_copy_labeled_text",
+        "mention_evidence": "妆造：我们是在一洲商城逛了一圈选了喜欢的那家店",
+        "mention_confidence": 0.94,
+        "mention_author_user_id": null,
+        "account": null,
+        "name": "我们是在一洲商城逛了一圈选了喜欢的那家店",
+        "match_status": "mention_only",
+        "match_confidence": 0.94,
+        "match_reasons": [],
+        "match_source": "author_or_manual_mention",
+        "source_query": null,
+        "poi_id": null,
+        "address": null,
+        "district": null,
+        "latitude": null,
+        "longitude": null,
+        "phone": null,
+        "map_url": "",
+        "business_status": "待核实",
+        "distance_to_spot_m": null,
+        "last_verified_at": null
+      },
+      "photographer": {
+        "provider_type": "photography",
+        "mention_text": null,
+        "mention_source": "not_mentioned",
+        "mention_evidence": null,
+        "mention_confidence": null,
+        "mention_author_user_id": null,
+        "account": {
+          "platform": "小红书",
+          "platform_user_id": "62811c3a000000002102a3f2",
+          "display_name": "拿相机的猫📷（看主页）",
+          "profile_url": "https://www.xiaohongshu.com/user/profile/62811c3a000000002102a3f2?xsec_token=AB4vAJB_FkebXaq5WWnUgG0Ke-biHxAd4TGbyotVKXn4U%3D&xsec_source=pc_note",
+          "red_id": null,
+          "description": "拿相机的猫📷（看主页）在「小红书」上有7189位粉丝，已关注326人，来「小红书」查看更多拿相机的猫📷（看主页）分享的视频和笔记",
+          "ip_location": null,
+          "public_phone_hint": null,
+          "identity_status": "matched_mention",
+          "rejected_display_name": null,
+          "fetched_at": "2026-08-07T14:20:23.664Z"
+        },
+        "name": null,
+        "match_status": "not_mentioned",
+        "match_confidence": 0,
+        "match_reasons": [],
+        "match_source": "not_mentioned",
+        "source_query": null,
+        "poi_id": null,
+        "address": null,
+        "district": null,
+        "latitude": null,
+        "longitude": null,
+        "phone": null,
+        "map_url": "",
+        "business_status": "待核实",
+        "distance_to_spot_m": null,
+        "last_verified_at": null
+      },
+      "packages": [
+        {
+          "name": "参考套餐",
+          "price": 169,
+          "currency": "CNY",
+          "status": "manual_reference",
+          "includes": [],
+          "source": "manual",
+          "evidence": "采集时人工填写，需联系店铺确认",
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "case_id": "xhs_6950e74c0000000022033a4f",
+      "platform": "小红书",
+      "platform_note_id": "6950e74c0000000022033a4f",
+      "note_url": "https://www.xiaohongshu.com/explore/6950e74c0000000022033a4f?xsec_token=ABoUvOkHR3NWIITHGUQnyx-7C1NMROEaV7uvwl37QLMj4=&xsec_source=pc_search&source=web_explore_feed",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6950e74c0000000022033a4f",
+      "note_type": "normal",
+      "title": "大唐不夜城80块钱的妆造",
+      "content_snippet": "本来不抱期望，这么便宜怎么能看，拉人的大哥一直说去看看去看看，不会坑我 ，不满意就走人。\n去了后确实没啥别的费用，睫毛要收钱意料之中\n送全部底片 六张精修（也是ai修图可以接受\n\t\n总之妆面啥样还得自己提出需求，哪里不要太重说清楚，总体出来效果不错哈哈哈哈\n\t\n很满意！西安物价真不错",
+      "published_at": 1766909772000,
+      "collected_at": "2026-08-07T14:22:29.165Z",
+      "author": {
+        "platform_user_id": "59c0eafd44363b2d1cc60b2d",
+        "name": "Almost",
+        "profile_url": "https://www.xiaohongshu.com/user/profile/59c0eafd44363b2d1cc60b2d?channel_type=web_search_result_notes&xsec_token=ABVyl-sQV-DxxGuVlazxJFtKZZXu0pz1WAsWTJAxn9XZQ%3D&xsec_source=pc_note"
+      },
+      "author_replies": [
+        {
+          "author_name": "Almost",
+          "author_user_id": "59c0eafd44363b2d1cc60b2d",
+          "text": "都是可以玩的 下班前还就行",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "Almost",
+          "author_user_id": "59c0eafd44363b2d1cc60b2d",
+          "text": "冬天淡季呢",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "Almost",
+          "author_user_id": "59c0eafd44363b2d1cc60b2d",
+          "text": "不记得名字呢，大唐不夜城入口有个地下美食城里面的，在附近随便晃一晃，等别人联系你貌似会便宜些",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "Almost",
+          "author_user_id": "59c0eafd44363b2d1cc60b2d",
+          "text": "是 01-25肯尼亚",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "Almost",
+          "author_user_id": "59c0eafd44363b2d1cc60b2d",
+          "text": "啊啊啊怎么这么贵，还是找个便宜的降低期望比较满意不如自己拍呢",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072221/8afe69540cdd7d4bbf17838dfe1cce69/1040g2sg31qkmal8inu0049qhu3lfq2pdalvf3p0!nd_dft_wgth_webp_3",
+          "is_cover": true,
+          "media_type": "note_image",
+          "width": 5552,
+          "height": 4160
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072221/6a7ac7bd12b65dbbf40728541564680b/1040g2sg31qkmal8inu0g49qhu3lfq2pd1qebl0g!nd_dft_wgth_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 5552,
+          "height": 4160
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072221/1df5dee62f6d273e05b3ccdb83356bec/1040g2sg31qkmal8inu1049qhu3lfq2pd7r0k6b0!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 4160,
+          "height": 5552
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072221/8a51898470a7250e98677c661e6cc94c/notes_uhdr/1040g3qg31qkmf7se000049qhu3lfq2pdj9nieuo!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 4284,
+          "height": 5712
+        }
+      ],
+      "video": null,
+      "city": "西安",
+      "scenic_spot": "大唐不夜城",
+      "scenic_poi": null,
+      "style_tags": [],
+      "service_arrangement": "unclear",
+      "service_arrangement_label": "待判断",
+      "is_merchant_ad": false,
+      "price": 80,
+      "price_status": "manual_reference",
+      "price_note": "参考价格，需联系店铺确认当前套餐",
+      "price_evidence": null,
+      "distance": "距离待核实",
+      "distance_meters": null,
+      "distance_type": null,
+      "shop": {
+        "provider_type": "makeup_and_clothing",
+        "mention_text": "不夜城入口有个地下美食城里面的",
+        "mention_source": "manual_input",
+        "mention_evidence": null,
+        "mention_confidence": null,
+        "mention_author_user_id": null,
+        "account": null,
+        "name": "不夜城入口有个地下美食城里面的",
+        "match_status": "mention_only",
+        "match_confidence": 0,
+        "match_reasons": [],
+        "match_source": "author_or_manual_mention",
+        "source_query": null,
+        "poi_id": null,
+        "address": null,
+        "district": null,
+        "latitude": null,
+        "longitude": null,
+        "phone": null,
+        "map_url": "",
+        "business_status": "待核实",
+        "distance_to_spot_m": null,
+        "last_verified_at": null
+      },
+      "photographer": {
+        "provider_type": "photography",
+        "mention_text": null,
+        "mention_source": "not_mentioned",
+        "mention_evidence": null,
+        "mention_confidence": null,
+        "mention_author_user_id": null,
+        "account": {
+          "platform": "小红书",
+          "platform_user_id": "62811c3a000000002102a3f2",
+          "display_name": "拿相机的猫📷（看主页）",
+          "profile_url": "https://www.xiaohongshu.com/user/profile/62811c3a000000002102a3f2?xsec_token=AB4vAJB_FkebXaq5WWnUgG0Ke-biHxAd4TGbyotVKXn4U%3D&xsec_source=pc_note",
+          "red_id": null,
+          "description": "拿相机的猫📷（看主页）在「小红书」上有7189位粉丝，已关注326人，来「小红书」查看更多拿相机的猫📷（看主页）分享的视频和笔记",
+          "ip_location": null,
+          "public_phone_hint": null,
+          "identity_status": "matched_mention",
+          "rejected_display_name": null,
+          "fetched_at": "2026-08-07T14:20:23.664Z"
+        },
+        "name": null,
+        "match_status": "not_mentioned",
+        "match_confidence": 0,
+        "match_reasons": [],
+        "match_source": "not_mentioned",
+        "source_query": null,
+        "poi_id": null,
+        "address": null,
+        "district": null,
+        "latitude": null,
+        "longitude": null,
+        "phone": null,
+        "map_url": "",
+        "business_status": "待核实",
+        "distance_to_spot_m": null,
+        "last_verified_at": null
+      },
+      "packages": [
+        {
+          "name": "参考套餐",
+          "price": 80,
+          "currency": "CNY",
+          "status": "manual_reference",
+          "includes": [],
+          "source": "manual",
+          "evidence": "采集时人工填写，需联系店铺确认",
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "case_id": "xhs_6a01b44500000000370351cd",
+      "platform": "小红书",
+      "platform_note_id": "6a01b44500000000370351cd",
+      "note_url": "https://www.xiaohongshu.com/explore/6a01b44500000000370351cd?xsec_token=ABxi1uNFvlzTYMVawDbkkT3q46nA1J5sL6sMXZkkUsslc=&xsec_source=pc_search&source=web_explore_feed",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a01b44500000000370351cd",
+      "note_type": "normal",
+      "title": "唐风妆造真是方圆脸的本命哪！",
+      "content_snippet": "灯红影摇，梦回唐朝，做一回大唐美人[飞吻R]\n\t\n不上镜的方圆脸也能拍出这么美的照片，感谢\n妆造：@两只老虎妆造馆\n摄影：@拿相机的猫\n\t\n#西安旅拍[话题]#  #唐风复原[话题]#",
+      "published_at": 1778496581000,
+      "collected_at": "2026-08-07T14:20:22.864Z",
+      "author": {
+        "platform_user_id": "638208b3000000001f01ec24",
+        "name": "maynlord",
+        "profile_url": "https://www.xiaohongshu.com/user/profile/638208b3000000001f01ec24?channel_type=web_search_result_notes&xsec_token=ABIILS_xqum2YkogoaCyURCR2lpf-L76NMi1x8lFgrFBs%3D&xsec_source=pc_note"
+      },
+      "author_replies": [
+        {
+          "author_name": "maynlord",
+          "author_user_id": "638208b3000000001f01ec24",
+          "text": "正文里有@妆造和摄影师",
+          "mentioned_accounts": [
+            {
+              "name": "妆造和摄影师",
+              "platform_user_id": "",
+              "profile_url": "",
+              "source": "author_reply_at_text"
+            }
+          ],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "maynlord",
+          "author_user_id": "638208b3000000001f01ec24",
+          "text": "大唐芙蓉园",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "maynlord",
+          "author_user_id": "638208b3000000001f01ec24",
+          "text": "谢谢夸奖！可能脸型比较适合这个发型和装扮，化妆和摄影师也都很好",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "maynlord",
+          "author_user_id": "638208b3000000001f01ec24",
+          "text": "回复 付诗淇🥝 : 699一个小时，我拍了两个小时，又打了点折",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "maynlord",
+          "author_user_id": "638208b3000000001f01ec24",
+          "text": "回复 付诗淇🥝 : 谢谢！我也很喜欢这种盛唐复原风，去做之前就在小红书上找这种装扮，结果妆造馆真有一模一样的服饰",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "maynlord",
+          "author_user_id": "638208b3000000001f01ec24",
+          "text": "你是会拍的",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "maynlord",
+          "author_user_id": "638208b3000000001f01ec24",
+          "text": "回复 momo : 两只老虎的妆造是199，我觉得挺平价的，估计西安妆造店都是这个价吧。摄影我选的中高档的，699一个小时，在西安应该是偏贵的，当初在小红书里找摄影的时候，这个摄影师的作品质感是我一眼就喜欢的。我拍了两个小时，在此基础上又给了一点折扣",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "maynlord",
+          "author_user_id": "638208b3000000001f01ec24",
+          "text": "妆造199，摄影699一小时，我拍了两小时给了一点小折扣",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "maynlord",
+          "author_user_id": "638208b3000000001f01ec24",
+          "text": "05-11浙江",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "maynlord",
+          "author_user_id": "638208b3000000001f01ec24",
+          "text": "没觉得呢",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072220/45957571f4dcffbf5ff55a43a17d0162/1040g2sg3201b1h70iggg5os212pnrr14ktbjrtg!nd_dft_wlteh_webp_3",
+          "is_cover": true,
+          "media_type": "note_image",
+          "width": 4672,
+          "height": 7008
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072220/6af47b16ac5c3b109c5ccbc015b5700a/1040g2sg3201b1h70igh05os212pnrr14ltq89b0!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 4672,
+          "height": 7008
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072220/413dfe21e71f08f4813d2c31fc9d4aad/1040g2sg3201b1h70ighg5os212pnrr14up4ltsg!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 4672,
+          "height": 7008
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072220/ddb432805b8ebf7a460a97f97e3d5514/1040g2sg3201b1h70igi05os212pnrr145qcalbo!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 4106,
+          "height": 6607
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072220/a8153d9170c21d4e84ddde102a7c0f4d/1040g2sg3201b1h70igig5os212pnrr14a8ghnvo!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 2884,
+          "height": 3845
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072220/65638df82723d6ac560e9997bfbed1bf/1040g2sg3201b1h70igj05os212pnrr14imonla0!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 4672,
+          "height": 7008
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072220/835ffc547885674e0f8037c798281d84/1040g2sg3201b1h70igjg5os212pnrr14oju7gl0!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 3504,
+          "height": 4672
+        }
+      ],
+      "video": null,
+      "city": "西安",
+      "scenic_spot": "大唐芙蓉园",
+      "scenic_poi": null,
+      "style_tags": [
+        "唐风复原",
+        "西安旅拍",
+        "西安旅拍[话题]",
+        "唐风复原[话题]"
+      ],
+      "service_arrangement": "all_inclusive",
+      "service_arrangement_label": "一家全包妆造与摄影",
+      "is_merchant_ad": false,
+      "price": 199,
+      "price_status": "mentioned_unverified",
+      "price_note": "参考价格，需联系店铺确认当前套餐",
+      "price_evidence": "回复 momo : 两只老虎的妆造是199，我觉得挺平价的，估计西安妆造店都是这个价吧。摄",
+      "distance": "距离待核实",
+      "distance_meters": null,
+      "distance_type": null,
+      "shop": {
+        "provider_type": "makeup_and_clothing",
+        "mention_text": "两只老虎妆造馆",
+        "mention_source": "note_copy_labeled_text",
+        "mention_evidence": "妆造：@两只老虎妆造馆",
+        "mention_confidence": 0.94,
+        "mention_author_user_id": null,
+        "account": null,
+        "name": "两只老虎妆造馆",
+        "match_status": "mention_only",
+        "match_confidence": 0.94,
+        "match_reasons": [],
+        "match_source": "author_or_manual_mention",
+        "source_query": null,
+        "poi_id": null,
+        "address": null,
+        "district": null,
+        "latitude": null,
+        "longitude": null,
+        "phone": null,
+        "map_url": "",
+        "business_status": "待核实",
+        "distance_to_spot_m": null,
+        "last_verified_at": null
+      },
+      "photographer": {
+        "provider_type": "photography",
+        "mention_text": "拿相机的猫",
+        "mention_source": "note_copy_at_account",
+        "mention_evidence": "灯红影摇，梦回唐朝，做一回大唐美人[飞吻R]\n\t\n不上镜的方圆脸也能拍出这么美的照片，感谢\n妆造：@两只老虎妆造馆\n摄影：@拿相机的猫\n\t\n#西安旅拍[话题]#  #唐风复原[话题]#",
+        "mention_confidence": 0.99,
+        "mention_author_user_id": null,
+        "account": {
+          "platform": "小红书",
+          "platform_user_id": "62811c3a000000002102a3f2",
+          "display_name": "拿相机的猫📷（看主页）",
+          "profile_url": "https://www.xiaohongshu.com/user/profile/62811c3a000000002102a3f2?xsec_token=AB4vAJB_FkebXaq5WWnUgG0Ke-biHxAd4TGbyotVKXn4U%3D&xsec_source=pc_note",
+          "red_id": null,
+          "description": "拿相机的猫📷（看主页）在「小红书」上有7189位粉丝，已关注326人，来「小红书」查看更多拿相机的猫📷（看主页）分享的视频和笔记",
+          "ip_location": null,
+          "public_phone_hint": null,
+          "identity_status": "matched_mention",
+          "rejected_display_name": null,
+          "fetched_at": "2026-08-07T14:20:23.664Z"
+        },
+        "name": "拿相机的猫",
+        "match_status": "mention_only",
+        "match_confidence": 0.99,
+        "match_reasons": [],
+        "match_source": "author_or_manual_mention",
+        "source_query": null,
+        "poi_id": null,
+        "address": null,
+        "district": null,
+        "latitude": null,
+        "longitude": null,
+        "phone": null,
+        "map_url": "",
+        "business_status": "待核实",
+        "distance_to_spot_m": null,
+        "last_verified_at": null
+      },
+      "packages": [
+        {
+          "name": "参考套餐",
+          "price": 199,
+          "currency": "CNY",
+          "status": "mentioned_unverified",
+          "includes": [],
+          "source": "author_reply",
+          "evidence": "回复 momo : 两只老虎的妆造是199，我觉得挺平价的，估计西安妆造店都是这个价吧。摄",
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "case_id": "xhs_6a268296000000001702a255",
+      "platform": "小红书",
+      "platform_note_id": "6a268296000000001702a255",
+      "note_url": "https://www.xiaohongshu.com/explore/6a268296000000001702a255?xsec_token=ABuwjyHIn_5q28z2i6xu9pIY0TbRr_qL1bH_3TmB9Hnrs=&xsec_source=pc_search&source=web_explore_feed",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a268296000000001702a255",
+      "note_type": "normal",
+      "title": "西安妆造",
+      "content_snippet": "勉强安全下车[笑哭R]\n一觉醒来这么多赞[害羞R]，妆造和攻略给姐妹们放在图7-9了，各位可以参考一下，还有问题都可以在评论区提问哦\n#西安妆造[话题]# #汉服发型[话题]# #小唐风[话题]# #古装照[话题]# #西安打卡[话题]# #唐风[话题]# #原来穿上汉服可以这么美[话题]#",
+      "published_at": 1780908694000,
+      "collected_at": "2026-08-07T14:16:47.925Z",
+      "author": {
+        "platform_user_id": "5c7376eb0000000010034ace",
+        "name": "阿倩",
+        "profile_url": "https://www.xiaohongshu.com/user/profile/5c7376eb0000000010034ace?channel_type=web_search_result_notes&xsec_token=ABTpW-In7XSwnNm1rn1asbaNrPWwgP2RnBSuVF3fNHKOk%3D&xsec_source=pc_note"
+      },
+      "author_replies": [
+        {
+          "author_name": "阿倩",
+          "author_user_id": "5c7376eb0000000010034ace",
+          "text": "关注",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "阿倩",
+          "author_user_id": "5c7376eb0000000010034ace",
+          "text": "小唐风",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "阿倩",
+          "author_user_id": "5c7376eb0000000010034ace",
+          "text": "昨天 11:39四川",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "阿倩",
+          "author_user_id": "5c7376eb0000000010034ace",
+          "text": "图二是我在酒店拍的，长安序宴是这样的",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "阿倩",
+          "author_user_id": "5c7376eb0000000010034ace",
+          "text": "清沐铂金酒店，在钟楼地铁口",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "阿倩",
+          "author_user_id": "5c7376eb0000000010034ace",
+          "text": "回复 好好好好好好好 : 不是，图3是画妆造的地方",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "阿倩",
+          "author_user_id": "5c7376eb0000000010034ace",
+          "text": "更新在图7-9了",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "阿倩",
+          "author_user_id": "5c7376eb0000000010034ace",
+          "text": "钟楼小区：正宗裤带面",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "阿倩",
+          "author_user_id": "5c7376eb0000000010034ace",
+          "text": "我是周末去的 不用排队，最好提前预约，节假日可能人会多，提前预约就行",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "阿倩",
+          "author_user_id": "5c7376eb0000000010034ace",
+          "text": "更新在图7-9了宝宝",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "阿倩",
+          "author_user_id": "5c7376eb0000000010034ace",
+          "text": "一个多小时左右",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "阿倩",
+          "author_user_id": "5c7376eb0000000010034ace",
+          "text": "06-10四川",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "阿倩",
+          "author_user_id": "5c7376eb0000000010034ace",
+          "text": "谢谢",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072215/549f3558b6fb01be42df5a2e0396e4ce/notes_pre_post/1040g3k832158nprunu705n3jerlk6imejeak000!nd_dft_wlteh_webp_3",
+          "is_cover": true,
+          "media_type": "note_image",
+          "width": 1920,
+          "height": 2560
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072215/db262ec271ca7f17a1d5224b0060b5a8/notes_pre_post/1040g3k832158nprunu7g5n3jerlk6ime6fd2640!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1440,
+          "height": 2560
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072215/1def3d99532ce8e43af4b64e43e6c00c/notes_pre_post/1040g3k832158nprunu805n3jerlk6ime6l8mlro!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1920,
+          "height": 2560
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072215/38868611e87e6f47316169dc8b03381a/notes_pre_post/1040g3k832158nprunu8g5n3jerlk6imenqp76n0!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1920,
+          "height": 2560
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072215/231c6726176a7c24e7f1571940ce8422/notes_pre_post/1040g3k832158nprunu905n3jerlk6ime1mkngb0!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1920,
+          "height": 2560
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072215/68e3d22ae0f8a7edc9860c82a96cbf29/notes_pre_post/1040g3k832158nprunu9g5n3jerlk6imevkasl6g!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1919,
+          "height": 2560
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072215/4208b38204176497e759ade508d2f7bb/1040g2sg3217g1btqnl305n3jerlk6imefdojgb8!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072215/ad0b4a514d8e49571b707de8c3ab2e94/1040g2sg3217g1btqnl405n3jerlk6imeojic0t0!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072215/ec139d114333509355b7d056b8d6d933/1040g2sg3217g1btqnl3g5n3jerlk6imekkhqaoo!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1206,
+          "height": 2622
+        }
+      ],
+      "video": null,
+      "city": "西安",
+      "scenic_spot": "钟楼",
+      "scenic_poi": null,
+      "style_tags": [
+        "西安妆造",
+        "汉服发型",
+        "小唐风",
+        "古装照",
+        "西安打卡",
+        "唐风",
+        "原来穿上汉服可以这么美",
+        "西安妆造[话题]"
+      ],
+      "service_arrangement": "unclear",
+      "service_arrangement_label": "待判断",
+      "is_merchant_ad": false,
+      "price": 168,
+      "price_status": "manual_reference",
+      "price_note": "参考价格，需联系店铺确认当前套餐",
+      "price_evidence": null,
+      "distance": "距离待核实",
+      "distance_meters": null,
+      "distance_type": null,
+      "shop": {
+        "provider_type": "makeup_and_clothing",
+        "mention_text": "青青妆造",
+        "mention_source": "manual_input",
+        "mention_evidence": null,
+        "mention_confidence": null,
+        "mention_author_user_id": null,
+        "account": null,
+        "name": "青青妆造",
+        "match_status": "mention_only",
+        "match_confidence": 0,
+        "match_reasons": [],
+        "match_source": "author_or_manual_mention",
+        "source_query": null,
+        "poi_id": null,
+        "address": null,
+        "district": null,
+        "latitude": null,
+        "longitude": null,
+        "phone": null,
+        "map_url": "",
+        "business_status": "待核实",
+        "distance_to_spot_m": null,
+        "last_verified_at": null
+      },
+      "photographer": {
+        "provider_type": "photography",
+        "mention_text": "随便找的",
+        "mention_source": "manual_input",
+        "mention_evidence": null,
+        "mention_confidence": null,
+        "mention_author_user_id": null,
+        "account": null,
+        "name": "随便找的",
+        "match_status": "mention_only",
+        "match_confidence": 0,
+        "match_reasons": [],
+        "match_source": "author_or_manual_mention",
+        "source_query": null,
+        "poi_id": null,
+        "address": null,
+        "district": null,
+        "latitude": null,
+        "longitude": null,
+        "phone": null,
+        "map_url": "",
+        "business_status": "待核实",
+        "distance_to_spot_m": null,
+        "last_verified_at": null
+      },
+      "packages": [
+        {
+          "name": "参考套餐",
+          "price": 168,
+          "currency": "CNY",
+          "status": "manual_reference",
+          "includes": [],
+          "source": "manual",
+          "evidence": "采集时人工填写，需联系店铺确认",
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "case_id": "xhs_698c5451000000001a0324b7",
+      "platform": "小红书",
+      "platform_note_id": "698c5451000000001a0324b7",
+      "note_url": "https://www.xiaohongshu.com/explore/698c5451000000001a0324b7?xsec_token=ABiko1wpcYacL2RxGl6v6vIRnPzhtVMc6Hk0dhRVlcYgo=&xsec_source=pc_search&source=web_explore_feed",
+      "canonical_url": "https://www.xiaohongshu.com/explore/698c5451000000001a0324b7",
+      "note_type": "normal",
+      "title": "来西安怎么能不做一次贵妃呢",
+      "content_snippet": "西安妆造太卷了…\n用最低的价格做出了本人非常满意的唐妆！！\n#古风妆造[话题]#\n#西安[话题]#\n#大唐不夜城[话题]#\n#钟楼[话题]#\n#深圳教师[话题]#\n#宝宝辅食[话题]#\n#fyp[话题]#",
+      "published_at": 1770804305000,
+      "collected_at": "2026-08-07T14:12:41.423Z",
+      "author": {
+        "platform_user_id": "5ebf0be900000000010048cf",
+        "name": "Pikku小倩",
+        "profile_url": "https://www.xiaohongshu.com/user/profile/5ebf0be900000000010048cf?channel_type=web_search_result_notes&xsec_token=AB3ntou_HgShpKN-oblxgICAOn4o7FreKne1Pgll75fJo%3D&xsec_source=pc_note"
+      },
+      "author_replies": [
+        {
+          "author_name": "Pikku小倩",
+          "author_user_id": "5ebf0be900000000010048cf",
+          "text": "谢谢宝宝！这个不知道能不能看到",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "Pikku小倩",
+          "author_user_id": "5ebf0be900000000010048cf",
+          "text": "回复 等等 : 嘿嘿嘿谢谢！！你嘴真甜",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "Pikku小倩",
+          "author_user_id": "5ebf0be900000000010048cf",
+          "text": "拍摄不是哦，钟楼满大街都是摄影师呢",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "Pikku小倩",
+          "author_user_id": "5ebf0be900000000010048cf",
+          "text": "回复 乌拉乌拉哈哈哈哈哈 : 15一张的富士相机",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "Pikku小倩",
+          "author_user_id": "5ebf0be900000000010048cf",
+          "text": "宝宝你看看评论区我有回复的",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "Pikku小倩",
+          "author_user_id": "5ebf0be900000000010048cf",
+          "text": "159哈哈哈哈哈",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072212/4ae0fa9e5d2bf27de039cf17f59793b8/1040g00831sen3ga3lke05nlv1fkg8i6f91oneng!nd_dft_wlteh_webp_3",
+          "is_cover": true,
+          "media_type": "note_image",
+          "width": 2560,
+          "height": 3840
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072212/3d24d037de1825d3a552bccecf973b7d/1040g00831sen3ga3lkeg5nlv1fkg8i6fi6l59dg!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 2560,
+          "height": 3840
+        }
+      ],
+      "video": null,
+      "city": "西安",
+      "scenic_spot": "大唐不夜城",
+      "scenic_poi": null,
+      "style_tags": [
+        "古风妆造",
+        "西安",
+        "大唐不夜城",
+        "钟楼",
+        "深圳教师",
+        "宝宝辅食",
+        "fyp",
+        "古风妆造[话题]"
+      ],
+      "service_arrangement": "unclear",
+      "service_arrangement_label": "待判断",
+      "is_merchant_ad": false,
+      "price": 159,
+      "price_status": "manual_reference",
+      "price_note": "参考价格，需联系店铺确认当前套餐",
+      "price_evidence": null,
+      "distance": "距离待核实",
+      "distance_meters": null,
+      "distance_type": null,
+      "shop": {
+        "provider_type": "makeup_and_clothing",
+        "mention_text": "芳华一梦汉服体验馆",
+        "mention_source": "manual_input",
+        "mention_evidence": null,
+        "mention_confidence": null,
+        "mention_author_user_id": null,
+        "account": null,
+        "name": "芳华一梦汉服体验馆",
+        "match_status": "mention_only",
+        "match_confidence": 0,
+        "match_reasons": [],
+        "match_source": "author_or_manual_mention",
+        "source_query": null,
+        "poi_id": null,
+        "address": null,
+        "district": null,
+        "latitude": null,
+        "longitude": null,
+        "phone": null,
+        "map_url": "",
+        "business_status": "待核实",
+        "distance_to_spot_m": null,
+        "last_verified_at": null
+      },
+      "photographer": {
+        "provider_type": "photography",
+        "mention_text": null,
+        "mention_source": "not_mentioned",
+        "mention_evidence": null,
+        "mention_confidence": null,
+        "mention_author_user_id": null,
+        "account": {
+          "platform": "小红书",
+          "platform_user_id": "5f2530cd000000000100b693",
+          "display_name": "西安摄影师北辰",
+          "profile_url": "https://www.xiaohongshu.com/user/profile/5f2530cd000000000100b693?xsec_token=ABKr7ZvZ-P5XQ7mgQlJCTqutt-L6z4OyBqQBQj3_a_1YY%3D&xsec_source=pc_note",
+          "red_id": null,
+          "description": "西安摄影师北辰在「小红书」上有3953位粉丝，已关注221人，来「小红书」查看更多西安摄影师北辰分享的视频和笔记",
+          "ip_location": null,
+          "public_phone_hint": null,
+          "identity_status": "matched_mention",
+          "rejected_display_name": null,
+          "fetched_at": "2026-08-07T14:01:26.193Z"
+        },
+        "name": null,
+        "match_status": "not_mentioned",
+        "match_confidence": 0,
+        "match_reasons": [],
+        "match_source": "not_mentioned",
+        "source_query": null,
+        "poi_id": null,
+        "address": null,
+        "district": null,
+        "latitude": null,
+        "longitude": null,
+        "phone": null,
+        "map_url": "",
+        "business_status": "待核实",
+        "distance_to_spot_m": null,
+        "last_verified_at": null
+      },
+      "packages": [
+        {
+          "name": "参考套餐",
+          "price": 159,
+          "currency": "CNY",
+          "status": "manual_reference",
+          "includes": [],
+          "source": "manual",
+          "evidence": "采集时人工填写，需联系店铺确认",
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "case_id": "xhs_6879489d000000002400d361",
+      "platform": "小红书",
+      "platform_note_id": "6879489d000000002400d361",
+      "note_url": "https://www.xiaohongshu.com/explore/6879489d000000002400d361?xsec_token=AB9TaJ7tOCLINymnWiWcik9szlXV73reG9rpiiJzXM8kc=&xsec_source=pc_search&source=web_explore_feed",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6879489d000000002400d361",
+      "note_type": "normal",
+      "title": "大唐不夜城",
+      "content_snippet": "随机去的一家店妆造也很漂亮\n超级爱宝贝朋友拍的每一张照片\n非常开心的一次假期\n难过明天就要重庆开启新的一轮打工日记#梦唐阁汉服馆[话题]# #汉服小姐姐[话题]# #小唐风[话题]# #假期[话题]#",
+      "published_at": 1752778909000,
+      "collected_at": "2026-08-07T14:03:43.974Z",
+      "author": {
+        "platform_user_id": "5f4318ba000000000100687a",
+        "name": "努力抢相纸版",
+        "profile_url": "https://www.xiaohongshu.com/user/profile/5f4318ba000000000100687a?channel_type=web_search_result_notes&xsec_token=AB7kf4-ZEjybRylhTkBofl0WhEG4hjBEv33AJxTwE6MFg%3D&xsec_source=pc_note"
+      },
+      "author_replies": [
+        {
+          "author_name": "努力抢相纸版",
+          "author_user_id": "5f4318ba000000000100687a",
+          "text": "唐梦阁宝宝",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "努力抢相纸版",
+          "author_user_id": "5f4318ba000000000100687a",
+          "text": "回复 完 : 宝宝我没有留这家店的联系方式",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "努力抢相纸版",
+          "author_user_id": "5f4318ba000000000100687a",
+          "text": "145哦宝",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "努力抢相纸版",
+          "author_user_id": "5f4318ba000000000100687a",
+          "text": "回复 彩虹的尽头 : 就妆造和衣服哦宝 摄影我没找",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "努力抢相纸版",
+          "author_user_id": "5f4318ba000000000100687a",
+          "text": "回复 我是小Co（努力版） : 对哦",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "努力抢相纸版",
+          "author_user_id": "5f4318ba000000000100687a",
+          "text": "对哦",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "努力抢相纸版",
+          "author_user_id": "5f4318ba000000000100687a",
+          "text": "回复 小红薯65C6E3BF : 不太清楚啦宝 我也很久没去了",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "努力抢相纸版",
+          "author_user_id": "5f4318ba000000000100687a",
+          "text": "一个小时左右吧 宝",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "努力抢相纸版",
+          "author_user_id": "5f4318ba000000000100687a",
+          "text": "回复 草莓开心果巴斯克 :",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "努力抢相纸版",
+          "author_user_id": "5f4318ba000000000100687a",
+          "text": "对 我没有要摄影",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "努力抢相纸版",
+          "author_user_id": "5f4318ba000000000100687a",
+          "text": "盘的宝宝 我头发少也有发包",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "努力抢相纸版",
+          "author_user_id": "5f4318ba000000000100687a",
+          "text": "贝贝 太会夸啦",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072203/0164b4276beacff244a32fdfc1169dde/1040g00831k24b51kj4005nq332t08q3qi4137g8!nd_dft_wlteh_webp_3",
+          "is_cover": true,
+          "media_type": "note_image",
+          "width": 1206,
+          "height": 1608
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072203/338c7e3dc37286ed9a02838e165fd4b7/1040g00831k24b51kj40g5nq332t08q3qai6c1po!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072203/f4a501bc26179886653901c3e66f68b4/1040g00831k24b51kj4105nq332t08q3qn6j19l8!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072203/0c7f69047f1c5a6370cd2c0013547315/1040g00831k24b51kj41g5nq332t08q3qf7edm68!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1320,
+          "height": 1760
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072203/2fcab586b14e69c24fc378b699c71187/1040g00831k24b51kj4205nq332t08q3qqrhtuu8!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1320,
+          "height": 1760
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072203/114ee0f0a753275a7c3a11110ad49e9c/1040g00831k24b51kj42g5nq332t08q3qul5ks68!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1320,
+          "height": 1760
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072203/ce1d1123d1d4290bb5e445c3309b5a1e/1040g00831k24b51kj4305nq332t08q3qujhqrl8!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1320,
+          "height": 1760
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072203/194486dd62d29f9d76dfbfeccc10c1b0/1040g00831k24b51kj43g5nq332t08q3quv9hmjo!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 1320,
+          "height": 1760
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072203/5483fe6c0f46ebd048f50a5500695a6c/1040g00831k24b51kj4405nq332t08q3qrn1qfeo!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 2560,
+          "height": 2560
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072203/1adeba14616165595875315355014847/1040g00831k24b51kj44g5nq332t08q3qha5livg!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 2560,
+          "height": 2560
+        }
+      ],
+      "video": null,
+      "city": "西安",
+      "scenic_spot": "大唐不夜城",
+      "scenic_poi": null,
+      "style_tags": [
+        "梦唐阁汉服馆",
+        "汉服小姐姐",
+        "小唐风",
+        "假期",
+        "梦唐阁汉服馆[话题]",
+        "汉服小姐姐[话题]",
+        "小唐风[话题]",
+        "假期[话题]"
+      ],
+      "service_arrangement": "unclear",
+      "service_arrangement_label": "待判断",
+      "is_merchant_ad": false,
+      "price": 145,
+      "price_status": "manual_reference",
+      "price_note": "参考价格，需联系店铺确认当前套餐",
+      "price_evidence": null,
+      "distance": "距离待核实",
+      "distance_meters": null,
+      "distance_type": null,
+      "shop": {
+        "provider_type": "makeup_and_clothing",
+        "mention_text": "梦唐阁汉服",
+        "mention_source": "manual_input",
+        "mention_evidence": null,
+        "mention_confidence": null,
+        "mention_author_user_id": null,
+        "account": null,
+        "name": "梦唐阁汉服",
+        "match_status": "mention_only",
+        "match_confidence": 0,
+        "match_reasons": [],
+        "match_source": "author_or_manual_mention",
+        "source_query": null,
+        "poi_id": null,
+        "address": null,
+        "district": null,
+        "latitude": null,
+        "longitude": null,
+        "phone": null,
+        "map_url": "",
+        "business_status": "待核实",
+        "distance_to_spot_m": null,
+        "last_verified_at": null
+      },
+      "photographer": {
+        "provider_type": "photography",
+        "mention_text": null,
+        "mention_source": "not_mentioned",
+        "mention_evidence": null,
+        "mention_confidence": null,
+        "mention_author_user_id": null,
+        "account": {
+          "platform": "小红书",
+          "platform_user_id": "5f2530cd000000000100b693",
+          "display_name": "西安摄影师北辰",
+          "profile_url": "https://www.xiaohongshu.com/user/profile/5f2530cd000000000100b693?xsec_token=ABKr7ZvZ-P5XQ7mgQlJCTqutt-L6z4OyBqQBQj3_a_1YY%3D&xsec_source=pc_note",
+          "red_id": null,
+          "description": "西安摄影师北辰在「小红书」上有3953位粉丝，已关注221人，来「小红书」查看更多西安摄影师北辰分享的视频和笔记",
+          "ip_location": null,
+          "public_phone_hint": null,
+          "identity_status": "matched_mention",
+          "rejected_display_name": null,
+          "fetched_at": "2026-08-07T14:01:26.193Z"
+        },
+        "name": null,
+        "match_status": "not_mentioned",
+        "match_confidence": 0,
+        "match_reasons": [],
+        "match_source": "not_mentioned",
+        "source_query": null,
+        "poi_id": null,
+        "address": null,
+        "district": null,
+        "latitude": null,
+        "longitude": null,
+        "phone": null,
+        "map_url": "",
+        "business_status": "待核实",
+        "distance_to_spot_m": null,
+        "last_verified_at": null
+      },
+      "packages": [
+        {
+          "name": "妆造和衣服",
+          "price": 145,
+          "currency": "CNY",
+          "status": "manual_reference",
+          "includes": [],
+          "source": "manual",
+          "evidence": "采集时人工填写，需联系店铺确认",
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "case_id": "xhs_692174a4000000001e01557c",
+      "platform": "小红书",
+      "platform_note_id": "692174a4000000001e01557c",
+      "note_url": "https://www.xiaohongshu.com/explore/692174a4000000001e01557c?xsec_token=ABwYZcCndCdh0EirKq6Yrtt0el-iFLZV9gPBoVuUwfQRo=&xsec_source=pc_search&source=web_explore_feed",
+      "canonical_url": "https://www.xiaohongshu.com/explore/692174a4000000001e01557c",
+      "note_type": "normal",
+      "title": "一袭汉服 梦回长安🏮",
+      "content_snippet": "#大唐不夜城[话题]# #汉服[话题]# #古风[话题]# #汉服妆造[话题]# #穿越千年的浪漫[话题]# #汉服约拍[话题]# #成都约拍[话题]# #西安约拍[话题]# #古风妆造[话题]# #唐风[话题]#",
+      "published_at": 1763800228000,
+      "collected_at": "2026-08-07T14:01:25.321Z",
+      "author": {
+        "platform_user_id": "5abb17f6e8ac2b71ea07ecfd",
+        "name": "nikabb-",
+        "profile_url": "https://www.xiaohongshu.com/user/profile/5abb17f6e8ac2b71ea07ecfd?channel_type=web_search_result_notes&xsec_token=AB4Jjg0zBREOW7v0WtAyjDxxe5JPUAtLE72UkgvX7aL3k%3D&xsec_source=pc_note"
+      },
+      "author_replies": [
+        {
+          "author_name": "nikabb-",
+          "author_user_id": "5abb17f6e8ac2b71ea07ecfd",
+          "text": "衣锦长安@西安衣锦长安汉服馆（锦衣阁）",
+          "mentioned_accounts": [
+            {
+              "name": "西安衣锦长安汉服馆（锦衣阁）",
+              "platform_user_id": "5a9fa544e8ac2b453b48c52d",
+              "profile_url": "https://www.xiaohongshu.com/user/profile/5a9fa544e8ac2b453b48c52d?xsec_token=ABetdTjfuN9dGPNxp4w8Nn7V3_4CGmy1hkZc-IUfH_85g%3D&xsec_source=pc_note",
+              "source": "author_reply_at_account"
+            }
+          ],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "nikabb-",
+          "author_user_id": "5abb17f6e8ac2b71ea07ecfd",
+          "text": "@西安摄影师北辰",
+          "mentioned_accounts": [
+            {
+              "name": "西安摄影师北辰",
+              "platform_user_id": "5f2530cd000000000100b693",
+              "profile_url": "https://www.xiaohongshu.com/user/profile/5f2530cd000000000100b693?xsec_token=ABKr7ZvZ-P5XQ7mgQlJCTqutt-L6z4OyBqQBQj3_a_1YY%3D&xsec_source=pc_note",
+              "source": "author_reply_at_account"
+            }
+          ],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "nikabb-",
+          "author_user_id": "5abb17f6e8ac2b71ea07ecfd",
+          "text": "芙蓉园哈",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "nikabb-",
+          "author_user_id": "5abb17f6e8ac2b71ea07ecfd",
+          "text": "西安哦",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        },
+        {
+          "author_name": "nikabb-",
+          "author_user_id": "5abb17f6e8ac2b71ea07ecfd",
+          "text": "绝美了！",
+          "mentioned_accounts": [],
+          "is_note_author": true,
+          "source": "loaded_comment_dom"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072201/b086daf0592e4dd18702d8512d2279c8/notes_pre_post/1040g3k831p6bhu3s2abg4a40m4bvdr7t2cdpglo!nd_dft_wlteh_webp_3",
+          "is_cover": true,
+          "media_type": "note_image",
+          "width": 4672,
+          "height": 7008
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072201/a281faf813c00af0913c8dafd35a179b/notes_pre_post/1040g3k831p6bhu3s2ac04a40m4bvdr7tq3noqu8!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 2560,
+          "height": 3840
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072201/c95769d61dc21fcacc2969e160a4728c/notes_pre_post/1040g3k831p6bhu3s2acg4a40m4bvdr7tfi2p4ug!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 4672,
+          "height": 7008
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072201/a69ab0574770087fafa23c7e5ab011e7/notes_pre_post/1040g3k831p6bhu3s2ad04a40m4bvdr7tqpc3ncg!nd_dft_wgth_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 7008,
+          "height": 4672
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072201/88e4c5388f21a1df26b3f1c5450bc077/notes_pre_post/1040g3k831p6bhu3s2adg4a40m4bvdr7t8q884mg!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 4672,
+          "height": 7008
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072201/ccb23946614d794d130d2880cbab154a/notes_pre_post/1040g3k831p6bn7v52a704a40m4bvdr7t29vnju0!nd_dft_wgth_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 7008,
+          "height": 4672
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072201/c7c1e025c0af6e11328374c970e9a996/notes_pre_post/1040g3k831p6bn7v52a7g4a40m4bvdr7tqn06bjo!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 4545,
+          "height": 6818
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072201/76a8a81b873bef93f0be0cc1123b1c7a/notes_pre_post/1040g3k831p6bn7v52a804a40m4bvdr7te9unvn0!nd_dft_wgth_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 7008,
+          "height": 4672
+        },
+        {
+          "url": "https://sns-webpic-qc.xhscdn.com/202608072201/fb899c0b263239cd57cfda51b3a8d1fb/notes_pre_post/1040g3k831p6bn7v52a8g4a40m4bvdr7t9hmiilg!nd_dft_wlteh_webp_3",
+          "is_cover": false,
+          "media_type": "note_image",
+          "width": 4672,
+          "height": 7008
+        }
+      ],
+      "video": null,
+      "city": "西安",
+      "scenic_spot": "大唐不夜城",
+      "scenic_poi": null,
+      "style_tags": [
+        "大唐不夜城",
+        "汉服",
+        "古风",
+        "汉服妆造",
+        "穿越千年的浪漫",
+        "汉服约拍",
+        "成都约拍",
+        "西安约拍"
+      ],
+      "service_arrangement": "separate",
+      "service_arrangement_label": "妆造与摄影分开找",
+      "is_merchant_ad": false,
+      "price": null,
+      "price_status": "needs_contact",
+      "price_note": "笔记文案及已加载的作者回复未发现明确价格，需要联系店铺沟通",
+      "price_evidence": null,
+      "distance": "距离待核实",
+      "distance_meters": null,
+      "distance_type": null,
+      "shop": {
+        "provider_type": "makeup_and_clothing",
+        "mention_text": "西安衣锦长安汉服馆（锦衣阁）",
+        "mention_source": "author_reply_at_account",
+        "mention_evidence": "衣锦长安@西安衣锦长安汉服馆（锦衣阁）",
+        "mention_confidence": 0.995,
+        "mention_author_user_id": "5abb17f6e8ac2b71ea07ecfd",
+        "account": {
+          "platform": "小红书",
+          "platform_user_id": "5a9fa544e8ac2b453b48c52d",
+          "display_name": "西安衣锦长安汉服馆（锦衣阁）",
+          "profile_url": "https://www.xiaohongshu.com/user/profile/5a9fa544e8ac2b453b48c52d?xsec_token=ABetdTjfuN9dGPNxp4w8Nn7V3_4CGmy1hkZc-IUfH_85g%3D&xsec_source=pc_note",
+          "red_id": null,
+          "description": "西安衣锦长安汉服馆（锦衣阁）在「小红书」上有26176位粉丝，已关注620人，来「小红书」查看更多西安衣锦长安汉服馆（锦衣阁）分享的视频和笔记",
+          "ip_location": null,
+          "public_phone_hint": null,
+          "identity_status": "matched_mention",
+          "rejected_display_name": null,
+          "fetched_at": "2026-08-07T14:01:45.357Z"
+        },
+        "name": "西安衣锦长安汉服馆（锦衣阁）",
+        "match_status": "mention_only",
+        "match_confidence": 0.995,
+        "match_reasons": [],
+        "match_source": "author_or_manual_mention",
+        "source_query": null,
+        "poi_id": null,
+        "address": null,
+        "district": null,
+        "latitude": null,
+        "longitude": null,
+        "phone": null,
+        "map_url": "",
+        "business_status": "待核实",
+        "distance_to_spot_m": null,
+        "last_verified_at": null
+      },
+      "photographer": {
+        "provider_type": "photography",
+        "mention_text": "西安摄影师北辰",
+        "mention_source": "author_reply_at_account",
+        "mention_evidence": "@西安摄影师北辰",
+        "mention_confidence": 0.995,
+        "mention_author_user_id": "5abb17f6e8ac2b71ea07ecfd",
+        "account": {
+          "platform": "小红书",
+          "platform_user_id": "5f2530cd000000000100b693",
+          "display_name": "西安摄影师北辰",
+          "profile_url": "https://www.xiaohongshu.com/user/profile/5f2530cd000000000100b693?xsec_token=ABKr7ZvZ-P5XQ7mgQlJCTqutt-L6z4OyBqQBQj3_a_1YY%3D&xsec_source=pc_note",
+          "red_id": null,
+          "description": "西安摄影师北辰在「小红书」上有3953位粉丝，已关注221人，来「小红书」查看更多西安摄影师北辰分享的视频和笔记",
+          "ip_location": null,
+          "public_phone_hint": null,
+          "identity_status": "matched_mention",
+          "rejected_display_name": null,
+          "fetched_at": "2026-08-07T14:01:26.193Z"
+        },
+        "name": "西安摄影师北辰",
+        "match_status": "mention_only",
+        "match_confidence": 0.995,
+        "match_reasons": [],
+        "match_source": "author_or_manual_mention",
+        "source_query": null,
+        "poi_id": null,
+        "address": null,
+        "district": null,
+        "latitude": null,
+        "longitude": null,
+        "phone": null,
+        "map_url": "",
+        "business_status": "待核实",
+        "distance_to_spot_m": null,
+        "last_verified_at": null
+      },
+      "packages": [
+        {
+          "name": "价格需沟通",
+          "price": null,
+          "currency": "CNY",
+          "status": "needs_contact",
+          "includes": [],
+          "source": "not_found",
+          "evidence": "笔记文案及已加载的作者回复未发现明确价格，需要联系店铺沟通",
+          "verified_at": null
+        }
+      ]
+    }
+  ]
+}
