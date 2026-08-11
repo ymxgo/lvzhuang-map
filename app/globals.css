@@ -156,3 +156,11 @@ button,a{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 @media(prefers-reduced-motion:reduce){.loader-mark,.loader-line i{animation:none}.app-loader{transition-duration:.1s}}
 .brand>span.brand-mark{width:42px;height:42px;flex:0 0 42px;border:1px solid rgba(255,255,255,.46);border-radius:15px;background:linear-gradient(145deg,#d54d3f,#a82f27);font:inherit}
 @media(max-width:760px){.brand>span.brand-mark{width:36px;height:36px;flex-basis:36px;border-radius:12px}}
+
+/* Remote note images can expire independently from the note. Keep the browsing surface useful and explicit instead of leaving a black void. */
+.smart-image-fallback{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;padding:24px;color:#655d57;background:radial-gradient(circle at 32% 22%,rgba(255,255,255,.88),transparent 34%),linear-gradient(145deg,#eee9e3,#d9d1c8);text-align:center}
+.smart-image-fallback:before{content:"旅";width:44px;height:44px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.8);border-radius:15px;corner-shape:squircle;color:#fff;background:rgba(177,62,50,.82);box-shadow:0 12px 28px rgba(73,52,41,.14),inset 0 1px 0 rgba(255,255,255,.45);font:700 19px "Noto Serif SC",serif}
+.smart-image-fallback b{font-size:12px}.smart-image-fallback small{font-size:9px;opacity:.72}
+.smart-image-fallback.compact{gap:2px;padding:3px}.smart-image-fallback.compact:before{width:24px;height:24px;border-radius:8px;font-size:11px}.smart-image-fallback.compact b{display:none}.smart-image-fallback.compact small{font-size:7px}
+.detail-stage>.smart-image-fallback,.detail-stage .smart-image-fallback{z-index:2;color:#eee;background:radial-gradient(circle at 50% 38%,#312a26,#171411 67%)}
+.detail-stage .smart-image-fallback:before{width:58px;height:58px;border-radius:19px;background:rgba(255,255,255,.12);font-size:24px}.detail-thumbs .smart-image-fallback{position:absolute;inset:0}.hero>.smart-image-fallback{z-index:0;color:#f4eee9;background:linear-gradient(135deg,#4f3128,#211a17)}

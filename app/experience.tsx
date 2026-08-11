@@ -110,10 +110,28 @@ function useLocalState<T>(key:string,initial:T){
 type DetectorResult={boundingBox:{x:number;y:number;width:number;height:number}};
 type FaceDetectorCtor=new(options?:{fastMode?:boolean;maxDetectedFaces?:number})=>{detect:(source:CanvasImageSource)=>Promise<DetectorResult[]>};
 
-function SmartImage({src,alt,fit="cover",className=""}:{src:string;alt:string;fit?:"cover"|"contain";className?:string}){
+type SmartImageProps={
+  src:string;alt:string;fit?:"cover"|"contain";className?:string;fallbackSrcs?:string[];
+  eager?:boolean;showFallback?:boolean;compactFallback?:boolean;onResolvedSource?:(source:string)=>void;
+};
+
+function SmartImage(props:SmartImageProps){
+  const sourceKey=[props.src,...(props.fallbackSrcs||[])].filter(Boolean).join("\u0000");
+  const sources=sourceKey?sourceKey.split("\u0000").filter((source,index,list)=>list.indexOf(source)===index):[];
+  return <SmartImageAttempt {...props} key={sourceKey} sources={sources}/>;
+}
+
+function SmartImageAttempt({alt,fit="cover",className="",eager=false,showFallback=true,compactFallback=false,onResolvedSource,sources}:SmartImageProps&{sources:string[]}){
   const [position,setPosition]=useState(fit==="contain"?"50% 50%":"50% 38%");
+  const [sourceIndex,setSourceIndex]=useState(0);
+  const [attempt,setAttempt]=useState(0);
+  const [failed,setFailed]=useState(false);
+  const currentSource=sources[sourceIndex]||"";
+  const renderedSource=attempt&&currentSource?`${currentSource}${currentSource.includes("?")?"&":"?"}lv_retry=${attempt}`:currentSource;
+
   async function focus(event:React.SyntheticEvent<HTMLImageElement>){
     const image=event.currentTarget;
+    setFailed(false);onResolvedSource?.(currentSource);
     if(fit==="contain")return;
     setPosition(image.naturalHeight>image.naturalWidth?"50% 36%":"50% 44%");
     try{
@@ -127,11 +145,17 @@ function SmartImage({src,alt,fit="cover",className=""}:{src:string;alt:string;fi
       setPosition(`${x}% ${y}%`);
     }catch{/* Native face detection is optional; the portrait-safe fallback remains. */}
   }
-  return <img alt={alt} className={className} onError={(event)=>{event.currentTarget.style.display="none";}} onLoad={focus} referrerPolicy="no-referrer" src={src} style={{objectFit:fit,objectPosition:position}}/>;
+  function tryNextSource(){
+    if(attempt===0){setAttempt(1);return;}
+    if(sourceIndex<sources.length-1){setSourceIndex((index)=>index+1);setAttempt(0);return;}
+    setFailed(true);
+  }
+  if(!currentSource||failed)return showFallback?<span aria-label={alt||"原帖图片暂时无法显示"} className={`smart-image-fallback ${compactFallback?"compact":""}`} role="img"><b>图片暂时走丢了</b><small>原帖仍在 · 图片链接待刷新</small></span>:null;
+  return <img alt={alt} className={className} decoding="async" fetchPriority={eager?"high":"auto"} loading={eager?"eager":"lazy"} onError={tryNextSource} onLoad={focus} referrerPolicy="no-referrer" src={renderedSource} style={{objectFit:fit,objectPosition:position}}/>;
 }
 
 function CaseVisual({item,index=0,className=""}:{item:CaseItem;index?:number;className?:string}){
-  return <div className={`case-visual visual-${index%4} ${className}`}>{item.image&&<SmartImage alt={`${item.title}封面`} src={item.image}/>}<span className="origin-badge">真实采集</span><span className="platform-badge">{item.platform}</span></div>;
+  return <div className={`case-visual visual-${index%4} ${className}`}>{item.image?<SmartImage alt={`${item.title}封面`} fallbackSrcs={item.images.slice(1)} src={item.image}/>:<span className="smart-image-fallback" role="img"><b>图片暂时走丢了</b><small>原帖仍可查看</small></span>}<span className="origin-badge">真实采集</span><span className="platform-badge">{item.platform}</span></div>;
 }
 
 function DetailGallery({item}:{item:CaseItem}){
@@ -146,6 +170,7 @@ function DetailGallery({item}:{item:CaseItem}){
   const stageRef=useRef<HTMLButtonElement>(null);
   const thumbsRef=useRef<HTMLDivElement>(null);
   const active=photos[activeIndex]||"";
+  const alternatePhotos=photos.filter((_,index)=>index!==activeIndex);
   const galleryId=`detail-gallery-${item.id.replace(/[^a-zA-Z0-9_-]/g,"-")}`;
 
   const clearHideTimer=useCallback(()=>{
@@ -155,11 +180,11 @@ function DetailGallery({item}:{item:CaseItem}){
     clearHideTimer();
     if(photos.length<2)return;
     hideTimer.current=setTimeout(()=>{setControlsExpanded(false);hideTimer.current=null;},2100);
-  },[clearHideTimer,photos.length]);
+  },[clearHideTimer,photos.length,setControlsExpanded]);
   const revealControls=useCallback(()=>{
     setControlsExpanded(true);
     armHideTimer();
-  },[armHideTimer]);
+  },[armHideTimer,setControlsExpanded]);
 
   useEffect(()=>{
     armHideTimer();
@@ -220,10 +245,10 @@ function DetailGallery({item}:{item:CaseItem}){
   if(!active)return <div className={`detail-gallery ${galleryStyles.gallery}`}><div className={`detail-stage ${galleryStyles.empty}`}><span>原帖图片暂时无法显示</span></div></div>;
   return <div className={`detail-gallery ${galleryStyles.gallery}`}>
     <button aria-label={`${item.title}图集，共${photos.length}张，可左右滑动或使用方向键`} aria-roledescription="轮播图" className={`detail-stage ${galleryStyles.stage}`} id={`${galleryId}-panel`} onKeyDown={onGalleryKeyDown} onPointerCancel={(event)=>finishPointer(event,true)} onPointerDown={onPointerDown} onPointerMove={onPointerMove} onPointerUp={finishPointer} ref={stageRef} type="button">
-      <SmartImage alt="" className={`detail-ambient ${galleryStyles.ambient}`} key={`ambient-${active}`} src={active}/>
+      <SmartImage alt="" className={`detail-ambient ${galleryStyles.ambient}`} eager fallbackSrcs={alternatePhotos} key={`ambient-${active}`} showFallback={false} src={active}/>
       <div className={`${galleryStyles.dragLayer} ${dragging?galleryStyles.dragging:""}`} style={{"--gallery-drag":`${dragOffset}px`} as React.CSSProperties}>
         <div className={`${galleryStyles.mainFrame} ${direction==="next"?galleryStyles.fromRight:galleryStyles.fromLeft}`} key={active}>
-          <SmartImage alt={`${item.title}第${activeIndex+1}张，完整妆造图`} className={`detail-main ${galleryStyles.mainImage}`} fit="contain" src={active}/>
+          <SmartImage alt={`${item.title}第${activeIndex+1}张，完整妆造图`} className={`detail-main ${galleryStyles.mainImage}`} eager fallbackSrcs={alternatePhotos} fit="contain" onResolvedSource={(resolved)=>{const resolvedIndex=photos.indexOf(resolved);if(resolvedIndex>=0&&resolvedIndex!==activeIndex)setActiveIndex(resolvedIndex);}} src={active}/>
         </div>
       </div>
       <span className={`gallery-count ${galleryStyles.count}`}>完整原帖 · {activeIndex+1}/{photos.length}</span>
@@ -231,7 +256,7 @@ function DetailGallery({item}:{item:CaseItem}){
     </button>
     <div className={`${galleryStyles.controls} ${controlsExpanded?"":galleryStyles.controlsCollapsed}`} onBlurCapture={(event)=>{if(!event.currentTarget.contains(event.relatedTarget as Node|null))armHideTimer();}} onFocusCapture={clearHideTimer} onPointerDown={clearHideTimer} onPointerUp={(event)=>{(event.target as HTMLElement).closest<HTMLButtonElement>("button")?.blur();armHideTimer();}}>
       <div aria-label="选择原帖图片" className={`detail-thumbs ${galleryStyles.thumbRail}`} ref={thumbsRef} role="tablist">
-        {photos.map((photo,index)=><button aria-controls={`${galleryId}-panel`} aria-label={`查看第${index+1}张图片`} aria-selected={index===activeIndex} className={index===activeIndex?"active":""} data-gallery-index={index} key={`${photo}-${index}`} onClick={()=>selectPhoto(index)} onKeyDown={(event)=>onThumbKeyDown(event,index)} role="tab" tabIndex={index===activeIndex?0:-1} type="button"><SmartImage alt="" src={photo}/><small aria-hidden="true">{index+1}</small></button>)}
+        {photos.map((photo,index)=><button aria-controls={`${galleryId}-panel`} aria-label={`查看第${index+1}张图片`} aria-selected={index===activeIndex} className={index===activeIndex?"active":""} data-gallery-index={index} key={`${photo}-${index}`} onClick={()=>selectPhoto(index)} onKeyDown={(event)=>onThumbKeyDown(event,index)} role="tab" tabIndex={index===activeIndex?0:-1} type="button"><SmartImage alt="" compactFallback src={photo}/><small aria-hidden="true">{index+1}</small></button>)}
       </div>
       <button aria-expanded={controlsExpanded} aria-label={`展开缩略图，当前第${activeIndex+1}张，共${photos.length}张`} className={galleryStyles.compactControl} onClick={()=>{revealControls();requestAnimationFrame(()=>stageRef.current?.focus({preventScroll:true}));}} tabIndex={controlsExpanded?-1:0} type="button">
         <span aria-hidden="true" className={galleryStyles.dots}>{photos.slice(0,9).map((_,index)=><i className={index===Math.min(activeIndex,8)?galleryStyles.activeDot:""} key={index}/>)}</span>

@@ -155,3 +155,13 @@ test("keeps a separate static GitHub Pages build without removing the Sites buil
   assert.match(workflow, /actions\/upload-pages-artifact@v4/);
   assert.match(workflow, /actions\/deploy-pages@v4/);
 });
+
+test("recovers from expired source-image links without leaving black media panels", async () => {
+  const page = await readFile(new URL("../app/experience.tsx", import.meta.url), "utf8");
+  const styles = await readFile(new URL("../app/globals.css", import.meta.url), "utf8");
+  assert.match(page, /fallbackSrcs=\{item\.images\.slice\(1\)\}/);
+  assert.match(page, /lv_retry=/);
+  assert.match(page, /loading=\{eager\?"eager":"lazy"\}/);
+  assert.match(page, /原帖仍在 · 图片链接待刷新/);
+  assert.match(styles, /\.smart-image-fallback/);
+});
