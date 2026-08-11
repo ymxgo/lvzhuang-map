@@ -32,8 +32,8 @@ type StickerItem = {id:number; sprite:number; x:number; y:number; size:number};
 const cities:City[]=["西安","洛阳","延吉","杭州"];
 const styles=["全部风格","唐妆","宋制","朝鲜族","新中式"];
 const cityInfo:Record<City,{scene:string;note:string}>={
-  西安:{scene:"盛唐入夜",note:"7 篇真实案例已收录"},
-  洛阳:{scene:"神都灯影",note:"城市入口 · 等待真实采集"},
+  西安:{scene:"盛唐入夜",note:"真实案例已收录"},
+  洛阳:{scene:"神都灯影",note:"真实案例已收录"},
   延吉:{scene:"民族写真",note:"城市入口 · 等待真实采集"},
   杭州:{scene:"江南宋韵",note:"城市入口 · 等待真实采集"},
 };
@@ -98,6 +98,8 @@ function normalizeCases(value:unknown):CaseItem[]{
 }
 
 export const allCases=normalizeCases(bundledXhsData);
+
+function cityCaseCount(city:City){return allCases.filter((item)=>item.city===city).length;}
 
 function useLocalState<T>(key:string,initial:T){
   const [value,setValue]=useState<T>(()=>{if(typeof window==="undefined")return initial;try{const saved=localStorage.getItem(key);return saved?JSON.parse(saved) as T:initial;}catch{return initial;}});
@@ -344,7 +346,7 @@ export default function Experience(){
   useEffect(()=>{const frame=window.requestAnimationFrame(()=>{const hash=window.location.hash.slice(1) as View;if(["home","explore","favorites","profile"].includes(hash))setView(hash);});return()=>window.cancelAnimationFrame(frame);},[]);
   useEffect(()=>{document.body.style.overflow=selected||publishOpen||studioOpen||plusOpen?"hidden":"";return()=>{document.body.style.overflow="";};},[selected,publishOpen,studioOpen,plusOpen]);
   useEffect(()=>{window.dispatchEvent(new CustomEvent("lvzhuang-case-detail",{detail:selected?.id||null}));},[selected]);
-  const visible=allCases.slice(0,8);
+  const visible=cities.flatMap((item)=>allCases.filter((entry)=>entry.city===item).slice(0,4)).slice(0,8);
   const favoriteCases=allCases.filter((item)=>favorites.includes(item.id));
   const relatedCases=selected?allCases.filter((item)=>item.id!==selected.id&&item.city===selected.city).sort((a,b)=>(b.spot===selected.spot?2:0)+(b.style===selected.style?1:0)-((a.spot===selected.spot?2:0)+(a.style===selected.style?1:0))).slice(0,4):[];
   function go(next:View){const update=()=>{setView(next);setPlusOpen(false);history.replaceState(null,"",`#${next}`);scrollTo({top:0,behavior:"smooth"});};const doc=document as Document&{startViewTransition?:(callback:()=>void)=>unknown};if(doc.startViewTransition)doc.startViewTransition(update);else update();}
@@ -358,8 +360,8 @@ export default function Experience(){
   const photoConnected=selected?providerConnected(selected,"photo"):false;
 
   return <main className="app-shell">
-    <header className="topbar"><button className="brand" onClick={()=>go("home")} type="button"><span>旅</span><div><strong>旅妆地图</strong><small>TRAVEL BEAUTY MAP</small></div></button><div className="top-status">西安首批 · {allCases.length} 篇真实案例</div></header>
-    {view==="home"&&<><section className="hero"><SmartImage alt="西安旅拍妆造" src={allCases[2]?.image||allCases[0]?.image||""}/><div className="hero-shade"/><div className="hero-copy"><span>REAL TRAVEL PORTRAITS</span><h1>先在这里，<br/>成为一次想象。</h1><p>看真实游客怎么妆、谁拍、花了多少；即使暂时不出发，也可以先收藏、试搭和做计划。</p><button onClick={()=>go("explore")} type="button">开始做一份出片计划 →</button></div></section><section className="home-content"><div className="section-heading"><div><span className="eyebrow">DESTINATIONS</span><h2>从哪座城开始种草</h2></div></div><div className="city-story-grid">{cities.map((item,index)=><button className={item==="西安"?"city-story available":"city-story"} key={item} onClick={()=>{setCity(item);go("explore");}} type="button"><span>0{index+1}</span><strong>{item}</strong><b>{cityInfo[item].scene}</b><small>{cityInfo[item].note}</small></button>)}</div><div className="play-banner"><div><span className="eyebrow">PLAY BEFORE YOU GO</span><h2>还没订票，也可以先云搭一套</h2><p>上传自己的照片，把凤冠、花钿、云肩和披帛拖到身上，看看哪一种风格会让你想真正去一次。</p></div><button onClick={()=>openStudio("diy")} type="button">打开云搭配 DIY</button></div><div className="section-heading"><div><span className="eyebrow">REAL STORIES</span><h2>西安真实旅拍灵感</h2></div><small>{visible.length} 篇</small></div><CaseGrid favorites={favorites} items={visible} onFavorite={toggleFavorite} onSelect={openCase}/></section></>}
+    <header className="topbar"><button className="brand" onClick={()=>go("home")} type="button"><span>旅</span><div><strong>旅妆地图</strong><small>TRAVEL BEAUTY MAP</small></div></button><div className="top-status">西安 · 洛阳 · {allCases.length} 篇真实案例</div></header>
+    {view==="home"&&<><section className="hero"><SmartImage alt="景区旅拍妆造" src={visible[0]?.image||allCases[0]?.image||""}/><div className="hero-shade"/><div className="hero-copy"><span>REAL TRAVEL PORTRAITS</span><h1>先在这里，<br/>成为一次想象。</h1><p>看真实游客怎么妆、谁拍、花了多少；即使暂时不出发，也可以先收藏、试搭和做计划。</p><button onClick={()=>go("explore")} type="button">开始做一份出片计划 →</button></div></section><section className="home-content"><div className="section-heading"><div><span className="eyebrow">DESTINATIONS</span><h2>从哪座城开始种草</h2></div></div><div className="city-story-grid">{cities.map((item,index)=>{const count=cityCaseCount(item);return <button className={count?"city-story available":"city-story"} key={item} onClick={()=>{setCity(item);go("explore");}} type="button"><span>0{index+1}</span><strong>{item}</strong><b>{cityInfo[item].scene}</b><small>{count?`${count} 篇真实案例已收录`:cityInfo[item].note}</small></button>;})}</div><div className="play-banner"><div><span className="eyebrow">PLAY BEFORE YOU GO</span><h2>还没订票，也可以先云搭一套</h2><p>上传自己的照片，把凤冠、花钿、云肩和披帛拖到身上，看看哪一种风格会让你想真正去一次。</p></div><button onClick={()=>openStudio("diy")} type="button">打开云搭配 DIY</button></div><div className="section-heading"><div><span className="eyebrow">REAL STORIES</span><h2>西安与洛阳真实旅拍灵感</h2></div><small>{visible.length} 篇</small></div><CaseGrid favorites={favorites} items={visible} onFavorite={toggleFavorite} onSelect={openCase}/></section></>}
     {view==="explore"&&<ExploreSandbox cases={allCases} initialCity={city} onCityChange={setCity} onOpenCase={(id)=>{const item=allCases.find((entry)=>entry.id===id);if(item)openCase(item);}}/>} 
     {view==="favorites"&&<section className="favorites-page"><div className="favorite-hero"><span className="eyebrow">MY SHOOT LIST</span><h1>收藏不是终点，是一份慢慢成形的出发。</h1><p>{favoriteCases.length?`你已经留下 ${favoriteCases.length} 个真实案例。下一步可以把喜欢的景区和时间放进行程。`:"先收藏一套真正打动你的妆造，再决定什么时候出发。"}</p><button onClick={()=>go("explore")} type="button">去做出片计划</button></div><CaseGrid favorites={favorites} items={favoriteCases} onFavorite={toggleFavorite} onSelect={openCase}/></section>}
     {view==="profile"&&<ProfileHub favorites={favorites} onOpenPublish={()=>setPublishOpen(true)} onOpenStudio={openStudio}/>} 
