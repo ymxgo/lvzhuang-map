@@ -17,7 +17,7 @@ test("server-renders the travel makeup product", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   const html = await response.text();
-  assert.match(html, /TRAVEL BEAUTY MAP/);
+  assert.match(html, /景区妆造 · 真实案例/);
   assert.match(html, /REAL TRAVEL PORTRAITS/);
   assert.match(html, /PLAY BEFORE YOU GO/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/);
@@ -87,6 +87,7 @@ test("keeps the two-purpose glass launcher and an honest mature booking demo", a
   assert.match(demo, /全包流程演示/);
   assert.match(demo, /妆造流程演示/);
   assert.match(demo, /摄影流程演示/);
+  assert.match(demo, /BookingTicket/);
 });
 
 test("keeps the standardized booking flow honest and modular", async () => {
@@ -106,6 +107,24 @@ test("keeps the standardized booking flow honest and modular", async () => {
   assert.match(styles, /完整造型优先/);
   assert.match(styles, /detail-ambient/);
   assert.match(styles, /backdrop-filter:blur\(20px\)/);
+  assert.match(booking, /BookingTicket/);
+});
+
+test("shows every case for the selected home city and completes booking with a keepable ticket", async () => {
+  const page = await readFile(new URL("../app/experience.tsx", import.meta.url), "utf8");
+  const ticket = await readFile(new URL("../app/booking-ticket.tsx", import.meta.url), "utf8");
+  const ticketStyles = await readFile(new URL("../app/booking-ticket.module.css", import.meta.url), "utf8");
+  assert.match(page, /const homeCases=allCases\.filter/);
+  assert.match(page, /默认|西安真实旅拍灵感|\{city\}真实旅拍灵感/);
+  assert.doesNotMatch(page, /slice\(0,4\)\)\.slice\(0,8\)/);
+  assert.match(page, /selectHomeCity/);
+  assert.match(page, /app-loader/);
+  assert.match(page, /plusOpen\?"关闭":"创作"/);
+  assert.match(ticket, /保存小票图片/);
+  assert.match(ticket, /收进票夹/);
+  assert.match(ticket, /shareNavigator\.share/);
+  assert.match(ticketStyles, /perspective:1200px/);
+  assert.match(ticketStyles, /@keyframes file-ticket/);
 });
 
 test("keeps the evidence, execution, and comparison loop without a floating verifier", async () => {

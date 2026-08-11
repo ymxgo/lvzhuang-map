@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import BookingTicket from "./booking-ticket";
 import styles from "./explore-booking-demo.module.css";
 
 type DemoMode = "all" | "makeup" | "photo";
@@ -336,7 +337,7 @@ export function ExploreBookingDemo({
                     <div className={styles.dateStep}>
                       <label>
                         <span>意向日期 *</span>
-                        <input max={maxDate} min={minDate} onChange={(event) => setDate(event.target.value)} type="date" value={date} />
+                        <input max={maxDate} min={minDate} onInput={(event) => setDate(event.currentTarget.value)} type="date" value={date} />
                         <small>只能选择从明天起未来 90 天；这不是可用档期查询。</small>
                       </label>
                       <fieldset>
@@ -421,20 +422,12 @@ export function ExploreBookingDemo({
                   )}
                 </footer>
               </>
-            ) : (
-              <div aria-live="polite" className={styles.success}>
-                <span aria-hidden="true">✓</span>
-                <small>已保存到本机</small>
-                <h2 id="booking-demo-dialog-title">演示预约已完成</h2>
-                <p>这条记录只存在于当前浏览器，不会发送给“{saved.storeName}”或任何真实商家。</p>
-                <div>
-                  <strong>{saved.packageName}</strong>
-                  <span>{saved.date} · {saved.period}</span>
-                  <small>预约流程演示 · 非真实商家</small>
-                </div>
-                <button className={styles.primary} onClick={close} type="button">完成并关闭</button>
-              </div>
-            )}
+            ) : <BookingTicket data={{
+              code:saved.id.slice(0,8).toUpperCase(),status:"体验完成",title:saved.packageName,provider:saved.storeName,
+              place:"预约流程演示 · 非真实商家",date:saved.date,period:saved.period,
+              services:[saved.packageName,...saved.extras],budget:"价格待真实商家提供",demo:true,
+              note:`这条体验记录只保存在当前浏览器，不会发送给“${saved.storeName}”或任何真实商家。`,
+            }} onDone={close} onOpenWallet={()=>{close();window.dispatchEvent(new CustomEvent("lvzhuang-go-profile"));}}/>}
           </section>
         </div>
       )}

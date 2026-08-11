@@ -42,7 +42,6 @@ export function QuickCreateMenu({open,onClose,onPublish,onMatch}:QuickCreateMenu
   return <div aria-hidden={!open} className={`${styles.backdrop} ${open?styles.open:""}`}>
     <button aria-label="关闭创作菜单" className={styles.dismiss} onClick={onClose} tabIndex={-1} type="button"/>
     <section aria-label="选择创作方式" aria-modal="true" className={styles.menu} role="dialog">
-      <span aria-hidden="true" className={styles.origin}>＋</span>
       <button className={`${styles.card} ${styles.publish}`} onClick={()=>choose(onPublish)} ref={publishRef} tabIndex={open?0:-1} type="button">
         <span aria-hidden="true" className={`${styles.icon} ${styles.publishIcon}`}>发</span>
         <span className={styles.copy}><strong>发布旅拍</strong><small>分享妆造、店铺和真实花费</small></span>

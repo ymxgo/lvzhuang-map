@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element -- case images are remote originals */
 
 import { useEffect, useMemo, useState } from "react";
+import BookingTicket from "./booking-ticket";
 import { pricePresentation, providerConnected } from "./experience";
 import type { CaseItem } from "./experience";
 
@@ -152,7 +153,7 @@ export function BookingPortal({cases}:{cases:CaseItem[]}){
         <div className="booking-reference">{item.image&&<img alt="预约参考案例" src={item.image}/>}<div><small>预约对象</small><strong>{providerName}</strong><span>{item.title}</span></div></div>
         <fieldset><legend>选择服务模块</legend><div className="service-options">{available.map((entry)=><button className={chosen.includes(entry)?"active":""} key={entry} onClick={()=>toggle(entry)} type="button"><span>{chosen.includes(entry)?"✓":"＋"}</span>{entry}</button>)}</div></fieldset>
         <div className="booking-fields">
-          <label>希望日期 *<input max={maxDate} min={minDate} onChange={(event)=>setDate(event.target.value)} type="date" value={date}/><small>从明天开始，可选择未来约3个月</small></label>
+          <label>希望日期 *<input max={maxDate} min={minDate} onInput={(event)=>setDate(event.currentTarget.value)} type="date" value={date}/><small>从明天开始，可选择未来约3个月</small></label>
           <label>希望拍摄时间<select onChange={(event)=>setPeriod(event.target.value)} value={period}><option>清晨 · 08:00左右开拍</option><option>上午 · 10:00左右开拍</option><option>下午 · 16:00左右开拍</option><option>蓝调 · 18:00左右开拍</option><option>夜景 · 20:00左右开拍</option></select></label>
           <label>同行人数<input max="8" min="1" onChange={(event)=>setPeople(Number(event.target.value))} type="number" value={people}/></label>
           <label>整体预算<select onChange={(event)=>setBudget(event.target.value)} value={budget}><option>300—500元</option><option>500—800元</option><option>800—1200元</option><option>1200—2000元</option><option>预算待沟通</option></select></label>
@@ -165,7 +166,11 @@ export function BookingPortal({cases}:{cases:CaseItem[]}){
         <div className="price-disclosure"><span>价格状态</span><strong>{price?.value}</strong><p>{price?.note}。提交后商家可以确认原方案、调整时间或重新报价；你再次确认后才形成正式预约。</p></div>
         <button className="submit-booking" disabled={!date||date<minDate||date>maxDate||!contact.trim()||!chosen.length} onClick={submit} type="button">提交预约需求</button>
       </div>}
-      {step==="success"&&created&&<div className="booking-success"><span>✓</span><small>预约状态</small><h2>需求已经保存，等待商家确认</h2><p>这不是虚假的“预约成功”。商家确认时间、服务和报价后，你还需要再确认一次。</p><div><strong>{created.provider}</strong><span>{created.date} · {created.period}</span><span>{created.services.join("、")}</span></div><button onClick={close} type="button">完成</button></div>}
+      {step==="success"&&created&&<BookingTicket data={{
+        code:created.id.slice(0,8).toUpperCase(),status:"待商家确认",title:created.caseTitle,provider:created.provider,
+        place:`${created.city} · ${created.spot}`,date:created.date,period:created.period,services:created.services,budget:created.budget,
+        note:"预约意向已经安全保存在当前设备；商家确认档期、服务和最终报价后，才会形成正式预约。",
+      }} onDone={close} onOpenWallet={()=>{close();window.dispatchEvent(new CustomEvent("lvzhuang-go-profile"));}}/>}
     </section>
   </div>;
 }
